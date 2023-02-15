@@ -28,4 +28,12 @@ variable "application_service" {
   default     = "BartApp"
 }
 
+variable "AWS_ACCESS_KEY_ID" {
+  description = ""
+  default     = ""
+}
 
+variable "AWS_SECRET_ACCESS_KEY" {
+  description = ""
+  default     = ""
+}
