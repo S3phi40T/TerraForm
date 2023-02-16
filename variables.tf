@@ -21,5 +21,5 @@ variable "ritm" {
 variable "AWS_SECRET_ACCESS_KEY" {
 }
 
-variable "rAWS_ACCESS_KEY_IDitm" {
+variable "AWS_ACCESS_KEY_ID" {
 }
