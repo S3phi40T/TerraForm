@@ -20,7 +20,7 @@ provider "aws" {
 }
 
 
-  resource "aws_security_group" "ubuntu" {
+  resource "aws_security_group" "Remote Access" {
     description = "Allow HTTP, HTTPS and SSH traffic"
     vpc_id = "vpc-0d06a881e745e2225"
     ingress {
