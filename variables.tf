@@ -18,3 +18,10 @@ variable "ritm" {
   description = "Requested Item number"
 }
 
+variable "AWS_SECRET_ACCESS_KEY" {
+  description = "AWS_SECRET_ACCESS_KEY"
+}
+
+variable "rAWS_ACCESS_KEY_IDitm" {
+  description = "AWS_ACCESS_KEY_ID"
+}
