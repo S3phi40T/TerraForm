@@ -1,34 +1,20 @@
-variable "region" {
-  description = "AWS region"
-  default     = "eu-central-1"
-}
-
 variable "instance_type" {
-  description = "Type of EC2 instance to provision"
-  default     = "t2.nano"
+  description = "Type of AWS EC2 instance to provision"
 }
 
 variable "instance_name" {
   description = "EC2 instance name"
 }
 
+variable "application_service" {
+  description = "Name of the Application Service"
+}
+
 variable "project" {
-  description = "project name"
+  description = "Project Name"
 }
 
 variable "ritm" {
-  description = "ServiceNow RITM"
-}
-
-variable "application_service" {
-  description = "App"
-}
-
-variable "AWS_ACCESS_KEY_ID" {
-  description = "AWS_ACCESS_KEY_ID"
-}
-
-variable "AWS_SECRET_ACCESS_KEY" {
-  description = "AWS_SECRET_ACCESS_KEY"
+  description = "Requested Item number"
 }
 
