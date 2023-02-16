@@ -10,20 +10,16 @@ variable "instance_type" {
 
 variable "instance_name" {
   description = "EC2 instance name"
-  default     = "BartTerraVMGit"
 }
 
 variable "project" {
   description = "project name"
-  default     = "TerraFormGit"
 }
 
 variable "ritm" {
   description = "ServiceNow RITM"
-  default     = "RITM12345Git"
 }
 
 variable "application_service" {
   description = "App"
-  default     = "BartAppGit"
 }
