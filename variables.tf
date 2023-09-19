@@ -24,15 +24,12 @@ variable "AWS_SECRET_ACCESS_KEY" {
 variable "AWS_ACCESS_KEY_ID" {
 }
 
-variable "diskSize": {
-"type": "string",
-"defaultValue": "8",
-"allowedValues": [
-"8",
-"16",
-"32",
-"64",
-"128",
-"256",				
-"512"
-]
+variable "availability_zone_names" {
+  type    = list(string)
+  default = ["us-west-1a"]
+}
+
+variable "availability_zone_names2" {
+  type    = list(string)
+  default = ["us-west-1a"]
+}
