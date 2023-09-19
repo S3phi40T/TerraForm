@@ -24,12 +24,15 @@ variable "AWS_SECRET_ACCESS_KEY" {
 variable "AWS_ACCESS_KEY_ID" {
 }
 
-variable "test_var" {
-  description = "acceptable values"
-  type = "list"
-  default = ["true", "false"]
-}
-
-variable "ritm2" {
-  description = "Requested Item number"
-}
+variable "diskSize": {
+"type": "string",
+"defaultValue": "8",
+"allowedValues": [
+"8",
+"16",
+"32",
+"64",
+"128",
+"256",				
+"512"
+]
