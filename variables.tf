@@ -23,9 +23,3 @@ variable "AWS_SECRET_ACCESS_KEY" {
 
 variable "AWS_ACCESS_KEY_ID" {
 }
-
-variable "values_list" {
-  description = "acceptable values"
-  type = "list"
-  default = ["true", "false"]
-}
