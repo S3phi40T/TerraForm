@@ -23,8 +23,13 @@ variable "AWS_SECRET_ACCESS_KEY" {
 
 variable "AWS_ACCESS_KEY_ID" {
 }
+
 variable "test_var" {
   description = "acceptable values"
   type = "list"
   default = ["true", "false"]
+}
+
+variable "ritm2" {
+  description = "Requested Item number"
 }
