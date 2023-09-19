@@ -57,3 +57,5 @@ provider "aws" {
       aws_security_group.ubuntu.id
     ]
 }
+
+username = var.users[0]
