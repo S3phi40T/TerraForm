@@ -18,7 +18,10 @@ variable "var19" {
 }
 variable "var10" {
 }
-
+variable "environment" {
+}
+variable "aztenant" {
+}
 variable "instance_type" {
   description = "Type of AWS EC2 instance to provision"
 }
