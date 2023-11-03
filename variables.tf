@@ -1,3 +1,24 @@
+variable "var11" {
+}
+variable "var12" {
+}
+variable "var13" {
+}
+variable "var14" {
+}
+variable "var15" {
+}
+variable "var16" {
+}
+variable "var17" {
+}
+variable "var18" {
+}
+variable "var19" {
+}
+variable "var10" {
+}
+
 variable "instance_type" {
   description = "Type of AWS EC2 instance to provision"
 }
